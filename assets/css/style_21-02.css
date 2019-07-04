@@ -1,0 +1,602 @@
+/* Logo T2 Campus User ingelogd */
+.logo{
+    margin-top: 10px;
+    width: 54px;
+    height: auto;
+}
+/* Logo T2 Campus User Niet ingelogd */
+.x-logo{
+    margin-top: 10px;
+    margin-bottom: -50px;
+    width: 150px;
+    height: auto;
+}
+/* Bootstrap Container fluid */
+.container-fluid{
+    margin-top:10px;
+    margin-left: 10px;
+}
+/* Hamburger menu */
+.menu{
+    color: #ffffff;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+/* Body */
+body{
+    background-image: url("https://images.pexels.com/photos/186861/pexels-photo-186861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    /* background-image:  url("../img/background-lighter-01.jpg"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* Shopping Cart */
+.shopping-cart {
+    margin-top: 0px ;
+    margin-right: 7px;
+    float: right;
+    color: white;
+    font-size: 32px;
+}
+
+.shopping-carts{
+    color: #ffffff;
+    float: right;
+    margin-top: -50px;
+    margin-right: 220px;
+}
+
+/* User_favorites */
+.favorites{
+    color: #B6D02C;
+    float: right;
+    margin-top: -50px;
+    margin-right: 70px;
+}
+.favorite-heart {
+    margin-top: 10px ;
+    margin-right: 10px;
+    float: right;
+    color: #B6D02C;
+}
+/* User_man */
+.users{
+    color: #ffffff;
+    float: right;
+    margin-top: -50px;
+}
+.user-man {
+    margin-top: 10px ;
+    margin-right: 10px;
+    float: right;
+    color: white;
+}
+/* Cirkel */
+.cirkel {
+    background-color: #B6D02C;
+    height: 50px;
+    width: 50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+
+.cirkel-white {
+    background-color: #ffffff;
+    height: 50px;
+    width: 50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+
+.cirkel-red {
+    background-color: #D10050;
+    height: 25px;
+    width: 25px;
+    -moz-border-radius:50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+/* User_count */
+  .count {
+    color: #ffffff;
+    float: right;
+    margin-top: -25px;
+    margin-right: 255px;
+}
+/* p text */
+p { text-align: center }
+/* User_back */
+.back-arrow {
+    margin-top: 10px ;
+    margin-left: 10px;
+    float: left;
+}
+.setback{
+    color: #B6D02C;
+    float: left;
+    margin-top: -50px;
+    margin-left: 120px;
+}
+/* User_order */
+.order-plus {
+    margin-top: 10px ;
+    margin-right: 10px;
+    float: right;
+    color: white;
+}
+.orders-plus{
+    color: #ffffff;
+    float: right;
+    margin-right: 145px;
+    margin-top: -50px;
+}
+
+/* Favorites */
+.fav {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+.fav h1{
+    color: #69472c;
+    text-align: center;
+    padding: 20px;
+}
+
+.fav-list{
+    margin: 10px 70px 10px 120px;
+    color: #69472c;
+}
+
+/* Menu Broodjes */
+.menu-container {
+    margin: 70px auto 170px auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-title {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+}
+
+#totalPrice {
+    color: white;
+}
+
+.menu-input {
+    border: 0px solid;
+
+    width: 99%;
+    height: 46px;
+    background-color: white;
+    border-radius: 23px;
+
+    padding: 0px 17px;
+
+    display: block;
+    margin: 10px auto;
+}
+
+.menu-multiple {
+    border: 0px solid;
+
+    width: 99%;
+    height: 92px !important;
+    background-color: white;
+    border-radius: 23px;
+
+    padding: 0px 17px;
+
+    display: block;
+    margin: 10px auto;
+}
+
+.menu-input-text {
+    border: 0px solid;
+
+    width: 99%;
+    height: 92px;
+    background-color: white;
+    border-radius: 23px;
+
+    padding: 13px;
+
+    display: block;
+    margin: 10px auto;
+}
+
+.menu-desc {
+    color: rgb(136, 136, 136); 
+}
+
+.menu-amount {
+    border: 0px solid;
+
+    width: 10%;
+    height: 46px;
+    background-color: #b6d02c;
+    border-radius: 23px;
+
+    padding: 0px 25px;
+    color: white;
+
+    display: block;
+    margin: 40px 0px 0px -60px;
+    float: left;
+}
+
+.menu-submit {
+    border: 0px solid;
+
+    width: 20%;
+    height: 46px;
+    background-color: #b6d02c;
+    border-radius: 23px;
+
+    padding: 0px 13px;
+    color: white;
+
+    display: block;
+    margin: 40px 10px 0px 0px;
+    float: right;
+}
+
+.menu-submit:hover {
+    cursor: pointer;
+}
+
+.menu-price {
+    border-top: 1px solid white;
+    width: 265px;
+    height: 46px;
+
+    padding: 10px;
+    font-size: 20px;
+
+    display: block;
+    margin: -20px auto 10px auto;
+}
+
+.form-group label {
+    padding-left: 22px;
+    color: white;
+    font-weight: 500;
+}
+
+/* Cart */
+.cart-background {
+    width: 85%;
+    background-color: white;
+    border-radius: 23px;
+
+    display: block;
+    margin: 70px auto;
+    padding-top: 20px;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.cart-item {
+    border-bottom: 1px solid black;
+    width: 90%;
+    height: 200px;
+    background-color: white;
+
+    padding: 20px;
+    margin: auto;
+}
+
+.cart-item h1 {
+    text-align: left;
+    font-size: 25px;
+}
+
+.cart-item p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.cart-delete {
+    float: right;
+    font-size: 25px;
+    color: #b6d02c;
+    margin-top: -5px;
+}
+
+.cart-delete:hover {
+    cursor: pointer;
+}
+
+.cart-fav {
+    float: right;
+    font-size: 35px;
+    color: #b6d02c;
+    margin: -65px 90px 0px 0px;
+}
+
+.cart-fav:hover {
+    cursor: pointer;
+}
+
+.cart-qty {
+    border: 2px solid #b6d02c;
+
+    width: 10%;
+    height: 40px;
+
+    padding: 0px 13px;
+    color: black;
+
+    display: block;
+    margin-top: -60px;
+    float: right;
+}
+
+.cart-total {
+    width: 90%;
+    height: 100px;
+    background-color: white;
+
+    padding: 20px;
+    margin: auto;
+}
+
+.cart-total p {
+    font-size: 25px;
+    color: #b6d02c;
+}
+
+.total-left p {
+    text-align: left;
+}
+
+.cart-btn {
+    border: 0px solid;
+
+    width: 20%;
+    height: 40px;
+    background-color: #b6d02c;
+    border-radius: 5px;
+
+    text-decoration: none;
+    padding: auto;
+    color: white;
+
+    display: block;
+    margin: -78px 40px 0px 0px;
+    float: right;
+}
+
+.cart-btn:hover {
+    cursor: pointer;
+}
+
+/* Checkout */
+.checkout-message {
+    margin: auto 20px;
+    text-align: center;
+    color: #b6d02c;
+    font-size: 12px;
+}
+
+.checkout-item {
+    border-bottom: 1px solid black;
+    width: 90%;
+    height: 170px;
+    background-color: white;
+
+    padding: 20px;
+    margin: auto;
+}
+
+.checkout-item h1 {
+    text-align: left;
+    font-size: 25px;
+}
+
+.checkout-item p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.checkout-options {
+    float: left;
+}
+
+.checkout-float {
+    float: right;
+    margin-right: 40px;
+}
+
+.total-right p {
+    text-align: right!important;
+    margin-right: -5px;
+}
+
+.checkout-date {
+    clear: both;
+
+    margin: 20px auto 100px auto;
+    text-align: center;
+}
+
+.checkout-date h5 {
+    color: #b6d02c;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.checkout-date p {
+    color: #b6d02c;
+    font-size: 12px;
+}
+
+.checkout-date input {
+    margin: auto;
+    width: 37%;
+    height: 50px;
+}
+
+.checkout-btn {
+    border: 0px solid;
+
+    width: 20%;
+    height: 40px;
+    background-color: #b6d02c;
+    border-radius: 5px;
+
+    text-decoration: none;
+    padding: auto;
+    color: white;
+
+    display: block;
+    margin: -51px 40px 0px 0px;
+    float: right;
+}
+
+.checkout-btn:hover {
+    cursor: pointer;
+}
+
+/* Login */
+.login-underline {
+    border-top: 1px solid white;
+    width: 101px;
+    margin: -20px auto 10px auto;
+}
+
+.login-message {
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+    
+    display: block;
+    margin: 0px auto 5px auto;
+}
+
+.login-btn {
+    border: 0px solid;
+    margin: 12px 6px;
+    height: 46px;
+    border-radius: 23px;
+
+    padding: auto;
+    display: block;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+}
+
+.login-login {
+    background-color: #b6d02c;
+    color: white;
+    width: 13%;
+    float: left;
+}
+
+.login-register {
+    text-decoration: none;
+    color: #b6d02c;
+    background-color: white;
+
+    width: 16%;
+    float: right;
+}
+
+.false-message {
+    float: left;
+    padding: 10px;
+    margin-left: 48px;    
+    display: block;
+}
+
+.false-btn {
+    background-color: #b6d02c;
+    color: white;
+    width: 13%;
+    clear: both;
+}
+
+/* Register */
+.register-underline {
+    border-top: 1px solid white;
+    width: 148px;
+    margin: -20px auto 10px auto;
+}
+
+.reg-input {
+    width: 60%;
+}
+
+.reg-label {
+    margin-left: 217px;
+}
+
+.reg-org {
+    width: 30%;
+    margin-left: 20%;
+}
+
+.reg-reg {
+    background-color: #b6d02c;
+    color: white;
+    width: 13%;
+    float: left;
+    margin-left: 20%;
+}
+
+.reg-terug {
+    text-decoration: none;
+    color: #b6d02c;
+    background-color: white;
+
+    width: 10%;
+    float: right;
+    margin-right: 20%;
+}
+
+
+
+
+
+
+
+
+/* Profile */
+.profile{
+    text-align: center;
+    padding: 10px 200px 10px 100px;
+    width: 100%;
+}
+
+.profile h1{
+    color: white;
+    margin: 35px 0px 50px 0px;
+    font-size: 35px;
+}
+
+.profile-input {
+    border: 0px solid;
+
+    width: 300px;
+    height: 46px;
+    background-color: white;
+    border-radius: 23px;
+
+    padding: 17px;
+
+    display: block;
+    margin: 10px auto;
+}

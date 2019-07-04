@@ -1,0 +1,903 @@
+/* Logo T2 Campus User ingelogd */
+.logo{
+    margin-top: 10px;
+    width: 54px;
+    height: auto;
+    margin-left: 10px;
+}
+/* Logo T2 Campus User Niet ingelogd */
+.x-logo{
+    margin-top: 10px;
+    margin-bottom: -50px;
+    width: 150px;
+    height: auto;
+}
+/* Bootstrap Container fluid */
+.container-fluid{
+    margin-top:10px;
+    margin-left: 10px;
+}
+/* Hamburger menu */
+.menu{
+    color: #ffffff;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+/* Body */
+body{
+    background-image: url("http://wulv.be/T2/background.jpg");
+    /* background-image:  url("../img/background-lighter-01.jpg"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* Shopping Cart */
+.shopping-cart {
+    margin-top: 0px ;
+    margin-right: 7px;
+    float: right;
+    color: white;
+    font-size: 32px;
+}
+
+.shopping-carts{
+    color: #ffffff;
+    float: right;
+    margin-top: -50px;
+    margin-right: 220px;
+}
+/* ICONS */
+/* User_favorites */
+.favorites{
+    color: #B6D02C;
+    float: right;
+    margin-top: -50px;
+    margin-right: 70px;
+}
+.favorite-heart {
+    margin-top: 10px ;
+    margin-right: 10px;
+    float: right;
+    color: #B6D02C;
+}
+/* User_man */
+.users{
+    border: none;
+    color: #ffffff;
+    float: right;
+    margin-top: -50px;
+}
+
+.user-man {
+    /* voor normaal menu: */
+    /* margin-top: 10px ;
+    margin-right: 10px; */
+
+    /* voor dropdown menu: */
+    margin: auto 5px;
+    float: right;
+    color: white;
+    cursor: pointer;
+}
+
+.user-dropdown {
+    width: 270px;
+    margin-top: 10px;
+    border: 0px solid;
+    background-color: #B6D02C;
+    color: white;
+}
+
+.user-dropdown a {
+    color: white;
+}
+
+.user-dropdown a:hover {
+    background-color: #B6D02C;
+    color: white;
+}
+
+/* Cirkel */
+.cirkel {
+    background-color: #B6D02C;
+    height: 50px;
+    width: 50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+
+.cirkel-white {
+    background-color: #ffffff;
+    height: 50px;
+    width: 50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+
+.cirkel-red {
+    background-color: #D10050;
+    height: 25px;
+    width: 25px;
+    -moz-border-radius:50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+/* User_count */
+  .count {
+    color: #ffffff;
+    float: right;
+    margin-top: -25px;
+    margin-right: 255px;
+}
+/* p text */
+/* p { text-align: center } */
+/* User_back */
+.back-arrow {
+    margin-top: 10px ;
+    margin-left: 10px;
+    float: left;
+}
+.setback{
+    color: #B6D02C;
+    float: left;
+    margin-top: -50px;
+    margin-left: 120px;
+}
+/* User_order */
+.order-plus {
+    margin-top: 10px ;
+    margin-right: 10px;
+    float: right;
+    color: white;
+}
+.orders-plus{
+    color: #ffffff;
+    float: right;
+    margin-right: 145px;
+    margin-top: -50px;
+}
+/* ICONS -------------- */
+/* Favorites */
+.fav {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+.fav h1{
+    color: #69472c;
+    text-align: center;
+    padding: 20px;
+}
+
+.fav-list{
+    margin: 10px 70px 10px 120px;
+    color: #69472c;
+}
+
+/* Menu Broodjes */
+.menu-container {
+    width: 97%; 
+    margin: 70px auto 170px auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-title {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+}
+
+#totalPrice {
+    color: white;
+}
+
+.menu-input {
+    border: 0px solid;
+
+    width: 99%;
+    height: 46px;
+    background-color: white;
+    border-radius: 23px;
+
+    padding: 0px 17px;
+
+    display: block;
+    margin: 10px auto;
+}
+
+.menu-input-text {
+    border: 0px solid;
+
+    width: 99%;
+    height: 92px;
+    background-color: white;
+    border-radius: 23px;
+
+    padding: 10px 17px;
+
+    display: block;
+    margin: 10px auto;
+}
+
+.menu-desc {
+    color: rgb(136, 136, 136); 
+}
+
+.menu-amount {
+    border: 0px solid;
+
+    width: 80px;
+    height: 46px;
+    background-color: #b6d02c;
+    border-radius: 23px;
+
+    padding: 0px 25px;
+    color: white;
+
+    display: block;
+    margin: 40px 0px 0px -60px;
+    float: left;
+}
+
+.menu-submit {
+    border: 0px solid;
+
+    width: 200px;
+    height: 46px;
+    background-color: #b6d02c;
+    border-radius: 23px;
+
+    padding: 0px 13px;
+    color: white;
+
+    display: block;
+    margin: 40px 10px 0px 0px;
+    float: right;
+}
+
+.menu-submit:hover {
+    cursor: pointer;
+}
+
+.menu-price {
+    border-top: 1px solid white;
+    width: 265px;
+    height: 46px;
+
+    padding: 10px;
+    font-size: 20px;
+
+    display: block;
+    margin: -20px auto 10px auto;
+}
+
+.form-group label {
+    padding-left: 22px;
+    color: white;
+    font-weight: 500;
+}
+
+/* Custom Checkbox */
+    .menu-check {
+        display: block;
+        position: relative;
+        padding-left: 50px;
+        margin-bottom: 12px;
+        margin-left: 22px;
+        cursor: pointer;
+        /* font-size: 22px; */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    
+    /* Hide the browser's default checkbox */
+    .menu-check input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+    
+    /* Create a custom checkbox */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    
+    /* On mouse-over, add a grey background color */
+    .menu-check:hover input ~ .checkmark {
+        background-color: #ccc;
+    }
+    
+    /* When the checkbox is checked, add a blue background */
+    .menu-check input:checked ~ .checkmark {
+        background-color: #b6d02c;
+    }
+    
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+    
+    /* Show the checkmark when checked */
+    /* .menu-check input:checked ~ .checkmark:after {
+        display: block;
+    } */
+    
+    /* Style the checkmark/indicator */
+    /* .menu-check .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    } */
+
+
+/* Dropdown eventueel */
+.menu-dropdown a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    margin: 10.5px 0px 0px 5px;
+}
+
+.menu-dropdown div {
+    width: 100%; 
+    border: 0px solid;
+    margin-left: -22px;
+    padding-left: 39px;
+}
+
+.menu-drop-input {
+    color: black;
+}
+
+/* Cart */
+.cart-background {
+    width: 95%;
+    background-color: white;
+    border-radius: 23px;
+
+    /* display: block; */
+    margin: 70px auto;
+    padding: 10px;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.cart-item {
+    border-bottom: 1px solid black;
+    background-color: white;
+
+    padding: 20px 10px 5px 10px;
+}
+
+.cart-item h1 {
+    text-align: left;
+    font-size: 25px;
+}
+
+.cart-item p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.cart-delete {
+    float: right;
+    font-size: 25px;
+    color: #b6d02c;
+    margin-top: 0px;
+}
+
+.cart-delete i:hover {
+    cursor: pointer;
+}
+
+.cart-delete:hover {
+    cursor: pointer;
+}
+
+.cart-fav {
+    float: right;
+    font-size: 35px;
+    color: #b6d02c;
+    margin: -5px 10px 0px 0px;
+}
+
+.cart-fav:hover {
+    cursor:pointer;
+}
+
+.cart-qty {
+    border: 2px solid #b6d02c;
+
+    width: 80px;
+    height: 40px;
+
+    padding: 0px 13px;
+    color: black;
+
+    /* display: block; */
+    /* margin-top: -60px; */
+    float: right;
+}
+
+.cart-bottomright {
+    position:absolute;
+    bottom:5px;
+    right:15px;
+}
+
+.cart-topright {
+    position:absolute;
+    top:9px;
+    right:15px;
+}
+
+.cart-total {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+
+    padding: 20px 25px;
+    margin: auto;
+}
+
+.cart-total p {
+    font-size: 25px;
+    color: #b6d02c;
+}
+
+.total-left p {
+    text-align: left;
+}
+
+.cart-btn {
+    border: 0px solid;
+
+    width: 100px;
+    height: 40px;
+    background-color: #b6d02c;
+    border-radius: 5px;
+
+    text-decoration: none;
+    padding: auto;
+    color: white;
+
+    display: block;
+    margin: -79px 25px 0px 0px;
+    float: right;
+}
+
+.cart-btn:hover {
+    cursor: pointer;
+}
+
+/* Checkout */
+.checkout-message {
+    margin: auto 20px;
+    text-align: center;
+    color: #b6d02c;
+    font-size: 12px;
+}
+
+.checkout-item {
+    border-bottom: 1px solid black;
+    /* height: 170px; */
+    background-color: white;
+
+    padding: 20px 10px 5px 10px;
+}
+
+.checkout-item h1 {
+    text-align: left;
+    font-size: 25px;
+}
+
+.checkout-item p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.checkout-options {
+    float: left;
+}
+
+.checkout-prices {
+    bottom:0px;
+    left:0px;
+}
+
+.total-right {
+    height: 100px;
+    font-size: 25px;
+    color: #b6d02c;
+    padding: 20px;
+}
+
+.checkout-date {
+    clear: both;
+
+    margin: 20px auto 100px auto;
+    text-align: center;
+}
+
+.checkout-date h5 {
+    color: #b6d02c;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.checkout-date p {
+    color: #b6d02c;
+    font-size: 12px;
+}
+
+.checkout-date input {
+    margin: auto;
+    width: 43%;
+    height: 50px;
+}
+
+.checkout-btn {
+    border: 0px solid;
+
+    width: 100px;
+    height: 40px;
+    background-color: #b6d02c;
+    border-radius: 5px;
+
+    text-decoration: none;
+    padding: auto;
+    color: white;
+
+    display: block;
+    margin: -51px 40px 0px 0px;
+    float: right;
+}
+
+.checkout-btn:hover {
+    cursor: pointer;
+}
+
+/* Login */
+.login-underline {
+    border-top: 1px solid white;
+    width: 101px;
+    margin: -20px auto 10px auto;
+}
+
+.login-message {
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+    
+    display: block;
+    margin: 0px auto 5px auto;
+}
+
+.login-btn {
+    border: 0px solid;
+    margin: 12px 6px;
+    height: 46px;
+    border-radius: 23px;
+
+    padding: auto;
+    display: block;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+}
+
+.login-login {
+    background-color: #b6d02c;
+    color: white;
+    width: 13%;
+    float: left;
+}
+
+.login-register {
+    text-decoration: none;
+    color: #b6d02c;
+    background-color: white;
+
+    width: 16%;
+    float: right;
+}
+
+.false-message {
+    float: left;
+    padding: 10px;
+    margin-left: 48px;    
+    display: block;
+}
+
+.false-btn {
+    background-color: #b6d02c;
+    color: white;
+    width: 13%;
+    clear: both;
+}
+
+/* Register */
+.register-underline {
+    border-top: 1px solid white;
+    width: 148px;
+    margin: -20px auto 10px auto;
+}
+
+.reg-input {
+    width: 60%;
+}
+
+.reg-label {
+    margin-left: 217px;
+}
+
+.reg-org {
+    width: 30%;
+    margin-left: 20%;
+}
+
+.reg-reg {
+    background-color: #b6d02c;
+    color: white;
+    width: 13%;
+    float: left;
+    margin-left: 20%;
+}
+
+.reg-terug {
+    text-decoration: none;
+    color: #b6d02c;
+    background-color: white;
+
+    width: 10%;
+    float: right;
+    margin-right: 20%;
+}
+
+/* Profile */
+.profile{
+    text-align: center;
+    padding: 10px 200px 10px 100px;
+    width: 100%;
+}
+
+.profile h1{
+    color: white;
+    margin: 35px 0px 50px 0px;
+    font-size: 35px;
+}
+
+.profile-input {
+    border: 0px solid;
+
+    width: 300px;
+    height: 46px;
+    background-color: white;
+    border-radius: 23px;
+
+    padding: 17px;
+
+    display: block;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+/* Alle nieuwe dingen */
+            /* Favoriet */
+            .fav-underline {
+                border-top: 1px solid white;
+                width: 220px;
+                display: block;
+                margin: -20px auto 10px auto;
+            }
+
+            .fav-background {
+                width: 100%;
+                background-color: white;
+                border-radius: 23px;
+
+                margin: 55px auto 40px auto;
+                padding: 10px;
+
+                font-family: 'Raleway', sans-serif;
+            }
+
+            .fav-title {
+                color: #b6d02c;
+                text-align: center;
+            }
+
+            .fav-title i {
+                font-size: 100px;
+                margin: 20px;
+            }
+
+            .fav-title h1 {
+                font-size: 22px;
+            }
+
+            .fav-checkmark {
+                background-color: rgb(231, 231, 231);
+            }
+
+            .fav-extras label {
+                color: #b6d02c;
+            }
+
+            .fav-extras {
+                color: #b6d02c;
+            }
+
+            .fav-submit {
+                border: 0px solid;
+
+                width: 200px;
+                height: 46px;
+                background-color: #b6d02c;
+                border-radius: 23px;
+
+                padding: 0px 13px;
+                color: white;
+
+                display: block;
+                margin: 0px auto 25px auto;
+                cursor:pointer;
+            }
+
+            .fav-text {
+                border: 1px solid #ccc;
+
+                width: 99%;
+                height: 92px;
+                background-color: white;
+                border-radius: 23px;
+
+                padding: 10px 17px;
+
+                display: block;
+                margin: 10px auto;
+            }
+
+
+            /* Payment Correct */
+            .success {
+                font-family: 'Raleway', sans-serif;
+                color: #b6d02c;
+            }
+
+            .success h1 {
+                text-align: center;
+            }
+
+            .payment-gif {
+                margin-top: 100px;
+                font-family: 'Raleway', sans-serif;  
+                color: white;  
+            }
+
+            .payment-gif h1 {
+                text-align: center;
+                font-weight: bolder;
+                margin-top: -50px;
+            }
+
+            .payment-gif p {
+                background-color: #b6d02c;
+                padding: 20px;
+                border-radius: 3px;
+            }
+
+
+            /* History/Bestellingen */
+            .his-title {
+                margin: 70px auto 0px auto;
+            }
+
+            .his-table {
+                font-size: 14px;
+            }
+
+            .history-underline {
+                border-top: 1px solid white;
+                width: 227px;
+                display: block;
+                margin: -20px auto -10px auto;
+            }
+
+            .his-30 {
+                text-align: left;
+                width: 30%;
+                margin-left: 3%;
+                padding: 5px;
+                margin-bottom: -17px;
+            }
+
+            .his-90 {
+                cursor: pointer;
+            }
+
+            .his-10 {
+                text-align: left;
+                width: 10%;
+                padding: 5px;
+                margin-left: 1.5%;
+            }
+
+            .his-20 {
+                text-align: left;
+                width: 20%;
+                padding: 5px;
+            }
+
+            .his-40 {
+                text-align: left;
+                width: 40%;
+                padding: 5px;
+            }
+
+
+
+/* Nieuwe CSS voor header: */
+            .user-man {
+                /* voor normaal menu: */
+                /* margin-top: 10px ;
+                margin-right: 10px; */
+
+                /* voor dropdown menu: */
+                margin: auto 5px;
+                float: right;
+                color: white;
+                cursor: pointer;
+            }
+
+            .user-dropdown {
+                width: 270px;
+                margin-top: 10px;
+                border: 0px solid;
+                background-color: #B6D02C;
+                color: white;
+            }
+
+            .user-dropdown a {
+                color: white;
+            }
+
+            .user-dropdown a:hover {
+                background-color: #B6D02C;
+                color: white;
+            }

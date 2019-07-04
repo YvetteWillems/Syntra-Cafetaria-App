@@ -1,0 +1,119 @@
+/* Logo T2 Campus User ingelogd */
+.logo{
+    margin-top: 10px;
+    width: 54px;
+    height: auto;
+}
+/* Logo T2 Campus User Niet ingelogd */
+.x-logo{
+    margin-top: 100px;
+    width: 150px;
+    height: auto;
+}
+/* Bootstrap Container fluid */
+.container-fluid{
+    margin-top:10px;
+    margin-left: 10px;
+}
+/* Hamburger menu */
+.menu{
+    color: #ffffff;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+/* Body */
+body{
+/*    background-image: url("https://images.pexels.com/photos/186861/pexels-photo-186861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+    background-image:  url("../img/background-lighter-01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* User_favorites */
+.favorites{
+    color: #B6D02C;
+    float: right;
+    margin-top: -50px;
+    margin-right: 70px;
+}
+.favorite-heart {
+    margin-top: 10px ;
+    margin-right: 10px;
+    float: right;
+}
+/* User_man */
+.users{
+    color: #ffffff;
+    float: right;
+    margin-top: -50px;
+}
+.user-man {
+    margin-top: 10px ;
+    margin-right: 10px;
+    float: right;
+}
+/* Cirkel */
+.cirkel {
+    background-color: #B6D02C;
+    height: 50px;
+    width: 50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+
+.cirkel-white {
+    background-color: #ffffff;
+    height: 50px;
+    width: 50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+
+.cirkel-red {
+    background-color: #D10050;
+    height: 25px;
+    width: 25px;
+    -moz-border-radius:50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+/* User_count */
+  .count {
+    color: #ffffff;
+    float: right;
+    margin-top: -25px;
+    margin-right: 105px;
+}
+/* p text */
+p { text-align: center }
+/* User_back */
+.back-arrow {
+    margin-top: 10px ;
+    margin-left: 10px;
+    float: left;
+}
+.setback{
+    color: #B6D02C;
+    float: left;
+    margin-top: -50px;
+    margin-left: 120px;
+}
+/* User_order */
+.order-plus {
+    margin-top: 10px ;
+    margin-right: 10px;
+    float: right;
+}
+.orders-plus{
+    color: #ffffff;
+    float: right;
+    margin-right: 145px;
+    margin-top: -50px;
+}
